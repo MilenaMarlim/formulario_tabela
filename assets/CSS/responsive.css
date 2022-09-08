@@ -1,0 +1,23 @@
+@media(max-width: 1300px) {
+    .container {
+        flex-direction: column;
+        box-shadow: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form{
+        width: 90%;
+    }
+
+    .form .grupo{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .form_image{
+        width: 90%;
+    }
+
+}

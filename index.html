@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="assets/CSS/global.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/responsive.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="board">
+        <div class="container">
+            <div class="form_image">
+                <img src="assets/img/co-working_image.svg" alt="imagem dp formulario">
+            </div>
+            <div class="form">
+
+                    <h1>Cadastre-se</h1>
+                    <div class="grupo">
+
+                        <div class="campo">
+                            <label for="nome"><strong>Nome Completo:</strong></label>
+                            <input type="text" placeholder="Digite seu nome completo" name="nome" id="nome" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="idade"><strong>Idade:</strong></label>
+                            <input type="number" placeholder="Digite sua Idade" name="idade" id="idade" required>
+                        </div>
+                        <div class="campo">
+                            <label for=""><strong>Data de Admissão:</strong></label> <br>
+                            <select name="date" id="dia">
+                                <option value="">Dia</option>
+                            </select>
+
+                            <select name="mes" id="mes">
+                                <option value=""> Mês</option>
+                                <option value="janeiro">Janeiro</option>
+                                <option value="fevereiro">Fevereiro</option>
+                                <option value="março">Março</option>
+                                <option value="abril">Abril</option>
+                                <option value="maio">Maio</option>
+                                <option value="junho">Junho</option>
+                                <option value="julho">Julho</option>
+                                <option value="agosto">Agosto</option>
+                                <option value="setembro">Setembro</option>
+                                <option value="outubro">Outubro</option>
+                                <option value="setembro">Novembro</option>
+                                <option value="dezembro">Dezembro</option>
+
+                            </select>
+
+                            <select name="ano" id="ano">
+                                <option value="">Ano</option>
+                            </select>
+                            <br><br>
+                        </div>
+
+                        <button class="botao" type="submit" onsubmit="" onclick="dado.salvar()">
+                            Confirmar
+                        </button>
+
+                    </div>
+               
+            </div>
+        </div>
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Dia</th>
+                    <th>Mês</th>
+                    <th>Ano</th>
+                    <tbody id="tbody"></tbody>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

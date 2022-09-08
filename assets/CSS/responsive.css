@@ -27,13 +27,17 @@
     .container{
         margin-top: 10%;
     }
-
-    table th{
-        padding: 0px;
-    }
 }
 
 @media(max-width: 768px) {
-table{
-    margin-top: 100px;
+.container, table{
+    margin-top: 50%;
 }
+}
+
+@media(max-width: 425px) {
+    table th{
+        padding: 10px;
+    }
+    }
+

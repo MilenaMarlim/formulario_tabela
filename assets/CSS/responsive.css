@@ -21,3 +21,10 @@
     }
 
 }
+
+@media(max-width: 890px) {
+
+    table th{
+        padding: 0px;
+    }
+}

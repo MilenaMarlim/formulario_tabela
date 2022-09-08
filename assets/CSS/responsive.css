@@ -24,7 +24,16 @@
 
 @media(max-width: 890px) {
 
+    .container{
+        margin-top: 10%;
+    }
+
     table th{
         padding: 0px;
     }
+}
+
+@media(max-width: 768px) {
+table{
+    margin-top: 100px;
 }
